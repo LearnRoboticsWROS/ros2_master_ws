@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_controllers.launch.py
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers.yaml
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/package_run_dependencies/cobot_gazebo
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/parent_prefix_path/cobot_gazebo
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.sh
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.dsv
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.bash
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.sh
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.zsh
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.dsv
+-- Installing: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.dsv
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/packages/cobot_gazebo
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig.cmake
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig-version.cmake
+-- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.xml

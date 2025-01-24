@@ -1,0 +1,9 @@
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/uninstall.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/cobot_gazebo_uninstall.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/test.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/edit_cache.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/list_install_components.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/install.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/install/local.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/install/strip.dir
