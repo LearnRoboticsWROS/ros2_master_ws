@@ -1,6 +1,8 @@
+/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/cobot_traj_controller.urdf.xacro
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/cobot_description.urdf.xacro
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/custom_cobot_gazebo.xacro
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/custom_gripper.xacro
+/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/cobot_gripper_controller.urdf.xacro
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/urdf/link_joint.xacro
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/launch/rviz.launch.py
 /home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/config/config.rviz

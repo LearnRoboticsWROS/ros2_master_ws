@@ -1,5 +1,6 @@
 /home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/uninstall.dir
 /home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/cobot_gazebo_uninstall.dir
+/home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/joint_publisher.dir
 /home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/test.dir
 /home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/edit_cache.dir
 /home/fra/ros2_master_ws/build/cobot_gazebo/CMakeFiles/rebuild_cache.dir

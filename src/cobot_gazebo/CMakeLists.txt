@@ -10,6 +10,8 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(trajectory_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -22,6 +24,15 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+add_executable(joint_publisher src/joint_publisher.cpp)
+ament_target_dependencies(joint_publisher rclcpp trajectory_msgs)
+
+install(TARGETS 
+  joint_publisher
+  DESTINATION lib/${PROJECT_NAME}/
+)
+
 
 install(DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME})

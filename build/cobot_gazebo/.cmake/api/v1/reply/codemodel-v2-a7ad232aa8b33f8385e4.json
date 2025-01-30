@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-8ce664036f8e30c45a3b.json",
+					"jsonFile" : "directory-.-654c8562b57b0b093b60.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -17,7 +17,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -33,7 +34,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -44,6 +46,13 @@
 					"id" : "cobot_gazebo_uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-cobot_gazebo_uninstall-16b8a93172c1e3abc048.json",
 					"name" : "cobot_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_publisher-e61577590673ce0ab9b1.json",
+					"name" : "joint_publisher",
 					"projectIndex" : 0
 				},
 				{
