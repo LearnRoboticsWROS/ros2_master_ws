@@ -1,0 +1,61 @@
+[0.016s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/cobot_camera_moveit_config -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/cobot_camera_moveit_config
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.914s] -- Configuring done
+[0.914s] -- Generating done
+[0.916s] -- Build files have been written to: /home/fra/ros2_master_ws/build/cobot_camera_moveit_config
+[0.921s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/cobot_camera_moveit_config -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/cobot_camera_moveit_config
+[0.925s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_camera_moveit_config -- -j12 -l12
+[0.995s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_camera_moveit_config -- -j12 -l12
+[0.995s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_camera_moveit_config
+[1.013s] -- Install configuration: ""
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/ament_index/resource_index/package_run_dependencies/cobot_camera_moveit_config
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/ament_index/resource_index/parent_prefix_path/cobot_camera_moveit_config
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/environment/ament_prefix_path.sh
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/environment/ament_prefix_path.dsv
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/environment/path.sh
+[1.013s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/environment/path.dsv
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/local_setup.bash
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/local_setup.sh
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/local_setup.zsh
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/local_setup.dsv
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.dsv
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/ament_index/resource_index/packages/cobot_camera_moveit_config
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/cmake/cobot_camera_moveit_configConfig.cmake
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/cmake/cobot_camera_moveit_configConfig-version.cmake
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.xml
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/demo.launch.py
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/warehouse_db.launch.py
+[1.014s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/rsp.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/spawn_controllers.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/setup_assistant.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/moveit_rviz.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/move_group.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/initial_positions.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/kinematics.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/joint_limits.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/custom_robot.urdf.xacro
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/moveit_controllers.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/pilz_cartesian_limits.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/sensors_3d.yaml
+[1.015s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/moveit.rviz
+[1.019s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/custom_robot.ros2_control.xacro
+[1.019s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/ros2_controllers.yaml
+[1.019s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/config/custom_robot.srdf
+[1.019s] -- Installing: /home/fra/ros2_master_ws/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/.setup_assistant
+[1.020s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_camera_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/cobot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_camera_moveit_config

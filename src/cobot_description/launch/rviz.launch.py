@@ -10,7 +10,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     package_share_dir = get_package_share_directory('cobot_description')
-    urdf_file = os.path.join(package_share_dir, 'urdf', 'cobot_description.urdf.xacro')
+    urdf_file = os.path.join(package_share_dir, 'urdf', 'cobot_camera.urdf.xacro')
     rviz_config_file = os.path.join(package_share_dir, 'config', 'config.rviz')
 
     # Declare the use_gui argument

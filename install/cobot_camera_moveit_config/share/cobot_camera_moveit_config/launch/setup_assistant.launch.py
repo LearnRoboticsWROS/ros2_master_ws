@@ -1,0 +1,1 @@
+/home/fra/ros2_master_ws/src/cobot_camera_moveit_config/launch/setup_assistant.launch.py
