@@ -5,6 +5,7 @@
     <xacro:include filename="/home/fra/ros2_master_ws/src/cobot_description/urdf/link_joint.xacro" />
     <xacro:include filename="/home/fra/ros2_master_ws/src/cobot_description/urdf/custom_gripper.xacro"/>
     <xacro:include filename="/home/fra/ros2_master_ws/src/cobot_description/urdf/custom_cobot_gazebo.xacro"/>
+    <xacro:include filename="/home/fra/ros2_master_ws/src/cobot_description/urdf/camera.xacro"/>
     
     <link name="world">
     </link>
@@ -99,35 +100,9 @@
 
 
     <xacro:custom_gripper parent="tool0" origin_xyz="0 0 0" />
-    
 
-    <!-- Add transmission to each joint-->
 
-    <!-- <xacro:transmission name="trans_base_link__link1" 
-                        joint_name="base_link__link1" 
-                        actuator_name="motor_base_link__link1" />
 
-    <xacro:transmission name="trans_link1__link2" 
-                        joint_name="link1__link2" 
-                        actuator_name="motor_link1__link2" />
-
-    
-    <xacro:transmission name="trans_link2__link3" 
-                        joint_name="link2__link3" 
-                        actuator_name="motor_link2__link3" />
-    
-    
-    <xacro:transmission name="trans_link3__link4" 
-                        joint_name="link3__link4" 
-                        actuator_name="motor_link3__link4" />
-    
-    <xacro:transmission name="trans_link4__link5" 
-                        joint_name="link4__link5" 
-                        actuator_name="motor_link4__link5" />
-    
-    <xacro:transmission name="trans_link5__link6" 
-                        joint_name="link5__link6" 
-                        actuator_name="motor_link5__link6" /> -->
 
     <ros2_control name="GazeboSystem" type="system">
         <hardware>

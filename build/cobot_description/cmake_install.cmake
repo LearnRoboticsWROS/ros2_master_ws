@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/fra/ros2_master_ws/src/cobot_description/urdf"
     "/home/fra/ros2_master_ws/src/cobot_description/launch"
     "/home/fra/ros2_master_ws/src/cobot_description/config"
+    "/home/fra/ros2_master_ws/src/cobot_description/meshes"
     )
 endif()
 

@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target joint_publisher[0m
+[0.060s] [100%] Built target joint_publisher
+[0.076s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j12 -l12
+[0.077s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo
+[0.083s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/lib/cobot_gazebo/joint_publisher
+[0.083s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_gripper_controllers.launch.py
+[0.084s] -- Installing: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_traj_controllers.launch.py
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_controllers.launch.py
+[0.084s] -- Installing: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera.launch.py
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers.yaml
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_gripper.yaml
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_trajectory.yaml
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/package_run_dependencies/cobot_gazebo
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/parent_prefix_path/cobot_gazebo
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.sh
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.dsv
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.bash
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.sh
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.zsh
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.dsv
+[0.085s] -- Installing: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.dsv
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/packages/cobot_gazebo
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig.cmake
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig-version.cmake
+[0.085s] -- Up-to-date: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.xml
+[0.091s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo

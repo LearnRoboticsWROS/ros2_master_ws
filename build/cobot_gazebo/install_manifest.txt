@@ -2,9 +2,11 @@
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_gripper_controllers.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_traj_controllers.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_controllers.launch.py
+/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers.yaml
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_gripper.yaml
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_trajectory.yaml
+/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/config.rviz
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/package_run_dependencies/cobot_gazebo
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/parent_prefix_path/cobot_gazebo
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.sh

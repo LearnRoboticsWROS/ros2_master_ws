@@ -25,6 +25,10 @@ def generate_launch_description():
         get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py'
     )
 
+    world_file = os.path.join(
+        get_package_share_directory('ind_environment'), 'worlds', 'pick_and_place_workplace.world'
+    )
+
     robot_description = Command(['xacro ', robot_description_file])
 
     x_arg = DeclareLaunchArgument('x', default_value='0', description='X position of the robot')
@@ -39,6 +43,7 @@ def generate_launch_description():
             'debug': 'false',
             'gui': 'true',
             'paused': 'true',
+            'world' : world_file
         }.items()
     )
 

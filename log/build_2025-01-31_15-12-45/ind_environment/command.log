@@ -1,0 +1,6 @@
+Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/ind_environment -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/ind_environment
+Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/ind_environment -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/ind_environment
+Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j12 -l12
+Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j12 -l12
+Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment
+Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment
