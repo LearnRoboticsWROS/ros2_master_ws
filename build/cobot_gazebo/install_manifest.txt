@@ -1,6 +1,7 @@
 /home/fra/ros2_master_ws/install/cobot_gazebo/lib/cobot_gazebo/joint_publisher
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_gripper_controllers.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_traj_controllers.launch.py
+/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera_moveit.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_controllers.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera.launch.py
 /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers.yaml

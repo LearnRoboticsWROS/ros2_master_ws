@@ -16,8 +16,8 @@
       </inertial>
       <pose>0 0 0 0 -0 0</pose>
       <gravity>1</gravity>
-      <self_collide>0</self_collide>
-      <kinematic>0</kinematic>
+      <self_collide>1</self_collide>
+      <kinematic>1</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual'>
         <pose>0 0 0 0 -0 0</pose>
