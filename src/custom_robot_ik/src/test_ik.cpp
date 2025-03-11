@@ -26,6 +26,9 @@ int main(int argc, char **argv)
     using moveit::planning_interface::MoveGroupInterface;
     MoveGroupInterface move_group(node, "arm");
 
+
+    moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
+
     move_group.setPoseReferenceFrame("base_link");
 
     geometry_msgs::msg::Pose target_pose;
@@ -34,9 +37,69 @@ int main(int argc, char **argv)
     target_pose.orientation = tf2::toMsg(orientation);
     target_pose.position.x = 0.5;
     target_pose.position.y = 0.5;
-    target_pose.position.z = 0.3;
+    target_pose.position.z = 0.5;
 
     move_group.setPoseTarget(target_pose, "picking_point");
+
+    // Collision objects
+
+    std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
+    collision_objects.resize(4);
+
+    // Conveyor
+    collision_objects[0].id = "table1";
+    collision_objects[0].header.frame_id = "world";
+    collision_objects[0].primitives.resize(1);
+    collision_objects[0].primitives[0].type = shape_msgs::msg::SolidPrimitive::BOX;
+    collision_objects[0].primitives[0].dimensions = {0.608, 2.0, 1.0};
+    collision_objects[0].primitive_poses.resize(1);
+    collision_objects[0].primitive_poses[0].position.x = 0.75;
+    collision_objects[0].primitive_poses[0].position.y = 0.0;
+    collision_objects[0].primitive_poses[0].position.z = 0.5;
+    collision_objects[0].operation = moveit_msgs::msg::CollisionObject::ADD;
+
+    // Place table
+    collision_objects[1].id = "table2";
+    collision_objects[1].header.frame_id = "world";
+    collision_objects[1].primitives.resize(1);
+    collision_objects[1].primitives[0].type = shape_msgs::msg::SolidPrimitive::BOX;
+    collision_objects[1].primitives[0].dimensions = {1.3, 0.8, 1.0};
+    collision_objects[1].primitive_poses.resize(1);
+    collision_objects[1].primitive_poses[0].position.x = 0.0;
+    collision_objects[1].primitive_poses[0].position.y = 1;
+    collision_objects[1].primitive_poses[0].position.z = 0.5;
+    collision_objects[1].operation = moveit_msgs::msg::CollisionObject::ADD;
+
+    // Basement robot stands on
+    collision_objects[2].id = "basement";
+    collision_objects[2].header.frame_id = "world";
+    collision_objects[2].primitives.resize(1);
+    collision_objects[2].primitives[0].type = shape_msgs::msg::SolidPrimitive::CYLINDER;
+    collision_objects[2].primitives[0].dimensions = {0.8, 0.2}; 
+    collision_objects[2].primitive_poses.resize(1);
+    collision_objects[2].primitive_poses[0].position.x = 0.0;
+    collision_objects[2].primitive_poses[0].position.y = 0.0;
+    collision_objects[2].primitive_poses[0].position.z = 0.4;
+    collision_objects[2].operation = moveit_msgs::msg::CollisionObject::ADD;
+
+    // Object to pick
+    collision_objects[3].id = "object";
+    collision_objects[3].header.frame_id = "world";
+    collision_objects[3].primitives.resize(1);
+    collision_objects[3].primitives[0].type = shape_msgs::msg::SolidPrimitive::BOX;
+    collision_objects[3].primitives[0].dimensions = {0.02, 0.02, 0.2};
+    collision_objects[3].primitive_poses.resize(1);
+    collision_objects[3].primitive_poses[0].position.x = 0.6;
+    collision_objects[3].primitive_poses[0].position.y = 0.0;
+    collision_objects[3].primitive_poses[0].position.z = 1.1;
+    collision_objects[3].operation = moveit_msgs::msg::CollisionObject::ADD;
+
+    // Add the object to the scene
+    planning_scene_interface.applyCollisionObjects(collision_objects);
+    RCLCPP_INFO(logger, "Collision objects added to the planning scene.");
+
+
+
 
     // Planning
     MoveGroupInterface::Plan my_plan;
