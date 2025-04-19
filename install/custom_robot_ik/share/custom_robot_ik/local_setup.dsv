@@ -1,2 +1,1 @@
-source;share/custom_robot_ik/environment/ament_prefix_path.sh
-source;share/custom_robot_ik/environment/path.sh
+/home/fra/ros2_master_ws/build/custom_robot_ik/ament_cmake_environment_hooks/local_setup.dsv

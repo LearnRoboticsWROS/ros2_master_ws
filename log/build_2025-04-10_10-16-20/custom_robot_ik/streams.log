@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j12 -l12
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[0.073s] [ 75%] Built target test_ik
+[10.277s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[10.763s] [100%] Built target pick_place
+[10.774s] Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j12 -l12
+[10.775s] Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik
+[10.782s] -- Install configuration: ""
+[10.782s] -- Execute custom install script
+[10.782s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/lib/custom_robot_ik//test_ik
+[10.782s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/lib/custom_robot_ik//pick_place
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/package_run_dependencies/custom_robot_ik
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/parent_prefix_path/custom_robot_ik
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/ament_prefix_path.sh
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/ament_prefix_path.dsv
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/path.sh
+[10.783s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/path.dsv
+[10.784s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.bash
+[10.784s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.sh
+[10.784s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.zsh
+[10.784s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.dsv
+[10.784s] -- Symlinking: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.dsv
+[10.792s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/packages/custom_robot_ik
+[10.792s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/cmake/custom_robot_ikConfig.cmake
+[10.792s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/cmake/custom_robot_ikConfig-version.cmake
+[10.792s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.xml
+[10.794s] Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik

@@ -1,0 +1,31 @@
+[0.033s] Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j12 -l12
+[0.099s] Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j12 -l12
+[0.099s] Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment
+[0.114s] -- Install configuration: ""
+[0.115s] -- Execute custom install script
+[0.116s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/conveyor/model.config
+[0.116s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/conveyor/model.sdf
+[0.116s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/object/model.config
+[0.116s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/object/model.sdf
+[0.117s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/red_cube/model.config
+[0.117s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/red_cube/model.sdf
+[0.117s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/support/model.config
+[0.117s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/models/support/model.sdf
+[0.121s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace.world
+[0.121s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_red_cube.world
+[0.121s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ament_index/resource_index/package_run_dependencies/ind_environment
+[0.122s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ament_index/resource_index/parent_prefix_path/ind_environment
+[0.122s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/environment/ament_prefix_path.sh
+[0.122s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/environment/ament_prefix_path.dsv
+[0.122s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/environment/path.sh
+[0.123s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/environment/path.dsv
+[0.123s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/local_setup.bash
+[0.123s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/local_setup.sh
+[0.123s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/local_setup.zsh
+[0.123s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/local_setup.dsv
+[0.123s] -- Symlinking: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.dsv
+[0.140s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ament_index/resource_index/packages/ind_environment
+[0.140s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig.cmake
+[0.141s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig-version.cmake
+[0.141s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.xml
+[0.199s] Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment

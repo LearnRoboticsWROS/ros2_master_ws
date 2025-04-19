@@ -1,6 +1,7 @@
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/uninstall.dir
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/custom_robot_ik_uninstall.dir
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/test_ik.dir
+/home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/pick_place.dir
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/test.dir
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/edit_cache.dir
 /home/fra/ros2_master_ws/build/custom_robot_ik/CMakeFiles/rebuild_cache.dir

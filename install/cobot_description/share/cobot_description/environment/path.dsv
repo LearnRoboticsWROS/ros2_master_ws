@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/fra/ros2_master_ws/build/cobot_description/ament_cmake_environment_hooks/path.dsv

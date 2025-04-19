@@ -1,0 +1,118 @@
+[0.018s] Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j12 -l12
+[0.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.257s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.297s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.301s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.313s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.653s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.903s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.938s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.950s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.985s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.026s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.068s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.232s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.277s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.311s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.353s] -- Found linkattacher_msgs: 0.0.0 (/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[1.367s] -- Found ros2_linkattacher: 0.0.0 (/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake)
+[1.371s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.409s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.428s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.440s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.442s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.450s] -- Searching for dependencies of ignition-math6
+[1.452s] -- Looking for OGRE...
+[1.461s] -- Found Ogre Ghadamon (1.9.0)
+[1.461s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.476s] -- Looking for OGRE_Paging...
+[1.476s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.477s] -- Looking for OGRE_Terrain...
+[1.477s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.477s] -- Looking for OGRE_Property...
+[1.477s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.478s] -- Looking for OGRE_RTShaderSystem...
+[1.478s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.478s] -- Looking for OGRE_Volume...
+[1.478s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.479s] -- Looking for OGRE_Overlay...
+[1.481s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.674s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.675s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.675s] -- Searching for dependencies of ignition-transport8
+[1.701s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.718s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.729s] -- Checking for module 'libzmq >= 4'
+[1.742s] --   Found libzmq , version 4.3.4
+[1.789s] -- Checking for module 'uuid'
+[1.803s] --   Found uuid, version 2.37.2
+[1.841s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.841s] -- Searching for dependencies of ignition-msgs5
+[1.867s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.875s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.882s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.882s] -- Searching for dependencies of ignition-common3
+[1.882s] -- Looking for dlfcn.h - found
+[1.882s] -- Looking for libdl - found
+[1.894s] -- Searching for <ignition-common3> component [graphics]
+[1.894s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.895s] -- Searching for dependencies of ignition-common3-graphics
+[1.895s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.897s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.898s] -- Searching for dependencies of ignition-fuel_tools4
+[1.947s] -- Checking for module 'jsoncpp'
+[1.965s] --   Found jsoncpp, version 1.9.5
+[2.010s] -- Checking for module 'libzip'
+[2.028s] --   Found libzip, version 1.7.3
+[2.065s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.065s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.066s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.068s] -- Gazebo version: 11.10
+[2.083s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.124s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.259s] -- Configured cppcheck include dirs: 
+[2.259s] -- Configured cppcheck exclude dirs and/or files: 
+[2.260s] -- Added test 'lint_cmake' to check CMake code style
+[2.262s] -- Added test 'uncrustify' to check C / C++ code style
+[2.262s] -- Configured uncrustify additional arguments: 
+[2.263s] -- Added test 'xmllint' to check XML markup files
+[2.266s] -- Configuring done
+[2.336s] -- Generating done
+[2.358s] -- Build files have been written to: /home/fra/ros2_master_ws/build/custom_robot_ik
+[2.402s] [35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[2.424s] [ 25%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[2.432s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[14.903s] [ 75%] [32m[1mLinking CXX executable test_ik[0m
+[15.752s] [ 75%] Built target test_ik
+[16.770s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[17.435s] [100%] Built target pick_place
+[17.454s] Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j12 -l12
+[17.454s] Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik
+[17.463s] -- Install configuration: ""
+[17.464s] -- Execute custom install script
+[17.464s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/lib/custom_robot_ik//test_ik
+[17.464s] -- Symlinking: /home/fra/ros2_master_ws/install/custom_robot_ik/lib/custom_robot_ik//pick_place
+[17.472s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/package_run_dependencies/custom_robot_ik
+[17.473s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/parent_prefix_path/custom_robot_ik
+[17.473s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/ament_prefix_path.sh
+[17.473s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/ament_prefix_path.dsv
+[17.474s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/path.sh
+[17.474s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/environment/path.dsv
+[17.474s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.bash
+[17.474s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.sh
+[17.475s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.zsh
+[17.475s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/local_setup.dsv
+[17.475s] -- Symlinking: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.dsv
+[17.486s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/ament_index/resource_index/packages/custom_robot_ik
+[17.487s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/cmake/custom_robot_ikConfig.cmake
+[17.487s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/cmake/custom_robot_ikConfig-version.cmake
+[17.487s] -- Up-to-date symlink: /home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.xml
+[17.490s] Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik

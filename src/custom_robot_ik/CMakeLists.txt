@@ -10,6 +10,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 
+find_package(linkattacher_msgs REQUIRED)  
+find_package(ros2_linkattacher REQUIRED)  
+find_package(gazebo_ros REQUIRED)
+find_package(gazebo_msgs REQUIRED)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -25,8 +30,11 @@ endif()
 add_executable(test_ik src/test_ik.cpp)
 ament_target_dependencies(test_ik rclcpp moveit_ros_planning_interface)
 
+add_executable(pick_place src/pick_place.cpp)
+ament_target_dependencies(pick_place rclcpp moveit_ros_planning_interface gazebo_msgs linkattacher_msgs ros2_linkattacher)
+
 install(TARGETS 
-  test_ik
+  test_ik pick_place
   DESTINATION lib/${PROJECT_NAME}/
 )
 

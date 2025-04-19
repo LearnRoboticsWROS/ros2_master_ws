@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fra/ros2_master_ws/build/custom_robot_ik/test_ik" "/home/fra/ros2_master_ws/build/custom_robot_ik/pick_place" "TARGETS" "test_ik" "pick_place" "DESTINATION" "lib/custom_robot_ik/")

@@ -25,9 +25,9 @@ def generate_launch_description():
         get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py'
     )
 
-    world_file = os.path.join(
-        get_package_share_directory('ind_environment'), 'worlds', 'pick_and_place_workplace_red_cube.world'
-    )
+    # world_file = os.path.join(
+    #     get_package_share_directory('ind_environment'), 'worlds', 'pick_and_place_workplace_red_cube.world'
+    # )
 
     robot_description = Command(['xacro ', robot_description_file])
 
@@ -43,12 +43,12 @@ def generate_launch_description():
             'debug': 'false',
             'gui': 'true',
             'paused': 'true',
-            'world' : world_file
+            #'world' : world_file
         }.items()
     )
 
     rviz_config_file = os.path.join(
-        get_package_share_directory('cobot_gazebo'), 'config', 'config.rviz'
+        get_package_share_directory('cobot_description'), 'config', 'config.rviz'
     )
 
     rviz_node = Node(

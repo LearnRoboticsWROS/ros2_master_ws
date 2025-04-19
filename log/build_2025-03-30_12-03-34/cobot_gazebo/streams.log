@@ -1,0 +1,81 @@
+[0.014s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/cobot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/cobot_gazebo
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.727s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.775s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.821s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.826s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.839s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.920s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.924s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.004s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.043s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.083s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.093s] -- Looking for pthread.h
+[1.155s] -- Looking for pthread.h - found
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.215s] -- Found Threads: TRUE  
+[1.273s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.309s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.414s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.414s] -- Configured cppcheck include dirs: 
+[1.414s] -- Configured cppcheck exclude dirs and/or files: 
+[1.415s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.416s] -- Added test 'lint_cmake' to check CMake code style
+[1.417s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.418s] -- Added test 'uncrustify' to check C / C++ code style
+[1.418s] -- Configured uncrustify additional arguments: 
+[1.419s] -- Added test 'xmllint' to check XML markup files
+[1.421s] -- Configuring done
+[1.432s] -- Generating done
+[1.435s] -- Build files have been written to: /home/fra/ros2_master_ws/build/cobot_gazebo
+[1.443s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/ros2_master_ws/src/cobot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fra/ros2_master_ws/install/cobot_gazebo
+[1.444s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j12 -l12
+[1.483s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o[0m
+[5.704s] [100%] [32m[1mLinking CXX executable joint_publisher[0m
+[5.895s] [100%] Built target joint_publisher
+[5.903s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j12 -l12
+[5.905s] Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo
+[5.910s] -- Install configuration: ""
+[5.911s] -- Execute custom install script
+[5.911s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/lib/cobot_gazebo//joint_publisher
+[5.918s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera.launch.py
+[5.925s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_camera_moveit.launch.py
+[5.932s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_controllers.launch.py
+[5.938s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_gripper_controllers.launch.py
+[5.945s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/launch/spawn_robot_traj_controllers.launch.py
+[5.952s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/config.rviz
+[5.959s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers.yaml
+[5.966s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_gripper.yaml
+[5.973s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/config/controllers_trajectory.yaml
+[5.980s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/package_run_dependencies/cobot_gazebo
+[5.987s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/parent_prefix_path/cobot_gazebo
+[5.994s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.sh
+[6.000s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/ament_prefix_path.dsv
+[6.007s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.sh
+[6.014s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/environment/path.dsv
+[6.021s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.bash
+[6.027s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.sh
+[6.034s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.zsh
+[6.041s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/local_setup.dsv
+[6.048s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.dsv
+[6.055s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/ament_index/resource_index/packages/cobot_gazebo
+[6.062s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig.cmake
+[6.069s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/cmake/cobot_gazeboConfig-version.cmake
+[6.076s] -- Symlinking: /home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.xml
+[6.084s] Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo
