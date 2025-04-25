@@ -1,0 +1,549 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78883245a350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x788832459ea0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x788832459ea0>>, mixin_verb=('build',))
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fra/ros2_master_ws'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/ros2_LinkAttacher' with type 'ros.ament_cmake' and name 'ros2_linkattacher'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_description) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_description' with type 'ros.ament_cmake' and name 'cobot_description'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_gazebo) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_gazebo' with type 'ros.ament_cmake' and name 'cobot_gazebo'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_ik) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_robot_ik' with type 'ros.ament_cmake' and name 'custom_robot_ik'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_moveit_config) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_robot_moveit_config' with type 'ros.ament_cmake' and name 'custom_robot_moveit_config'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ind_environment' with type 'ros.ament_cmake' and name 'ind_environment'
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/fra/ros2_master_ws/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/cobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/cobot_description', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/cobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/cobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/cobot_gazebo', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/cobot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'ind_environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/ind_environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/ind_environment', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/ind_environment', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'custom_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/custom_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/custom_robot_moveit_config', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/custom_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_linkattacher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/ros2_linkattacher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/ros2_linkattacher', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/ros2_LinkAttacher', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'custom_robot_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/ros2_master_ws/build/custom_robot_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/ros2_master_ws/install/custom_robot_ik', 'merge_install': False, 'path': '/home/fra/ros2_master_ws/src/custom_robot_ik', 'symlink_install': False, 'test_result_base': None}
+[0.242s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/linkattacher_msgs' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/linkattacher_msgs'
+[0.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/cobot_description' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/cobot_description'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/cobot_gazebo' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/cobot_gazebo'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/ind_environment' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/ind_environment'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/linkattacher_msgs -- -j16 -l16
+[0.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_description -- -j16 -l16
+[0.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j16 -l16
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j16 -l16
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_description -- -j16 -l16
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_description
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ind_environment -- -j16 -l16
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/cobot_gazebo -- -j16 -l16
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/cobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo
+[0.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_description)
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_description
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description' for CMake module files
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description' for CMake config files
+[0.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_description', 'cmake_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.sh'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/bin'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/lib/pkgconfig/cobot_description.pc'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/lib/python3.10/site-packages'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/bin'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.bash'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.zsh'
+[0.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/cobot_description/share/colcon-core/packages/cobot_description)
+[0.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_description)
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description' for CMake module files
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description' for CMake config files
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_description', 'cmake_prefix_path')
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/hook/cmake_prefix_path.sh'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/bin'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/lib/pkgconfig/cobot_description.pc'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/lib/python3.10/site-packages'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_description/bin'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.sh'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.bash'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_description/share/cobot_description/package.zsh'
+[0.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/cobot_description/share/colcon-core/packages/cobot_description)
+[0.343s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/custom_robot_moveit_config' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/custom_robot_moveit_config'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ind_environment)
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment' for CMake module files
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ind_environment
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment' for CMake config files
+[0.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('ind_environment', 'cmake_prefix_path')
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/bin'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/lib/python3.10/site-packages'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/bin'
+[0.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.bash'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.zsh'
+[0.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/ind_environment/share/colcon-core/packages/ind_environment)
+[0.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ind_environment)
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment' for CMake module files
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment' for CMake config files
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('ind_environment', 'cmake_prefix_path')
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/bin'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/lib/python3.10/site-packages'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ind_environment/bin'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.dsv'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.bash'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ind_environment/share/ind_environment/package.zsh'
+[0.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/ind_environment/share/colcon-core/packages/ind_environment)
+[0.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_gazebo)
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo' for CMake module files
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_moveit_config': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_moveit_config -- -j16 -l16
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/cobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/cobot_gazebo
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo' for CMake config files
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_gazebo', 'cmake_prefix_path')
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.sh'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/bin'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib/pkgconfig/cobot_gazebo.pc'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib/python3.10/site-packages'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/bin'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.bash'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.zsh'
+[0.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/cobot_gazebo/share/colcon-core/packages/cobot_gazebo)
+[0.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_gazebo)
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo' for CMake module files
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo' for CMake config files
+[0.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_gazebo', 'cmake_prefix_path')
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.ps1'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.dsv'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/hook/cmake_prefix_path.sh'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/bin'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib/pkgconfig/cobot_gazebo.pc'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/lib/python3.10/site-packages'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/cobot_gazebo/bin'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.bash'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/cobot_gazebo/share/cobot_gazebo/package.zsh'
+[0.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/cobot_gazebo/share/colcon-core/packages/cobot_gazebo)
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_moveit_config -- -j16 -l16
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_moveit_config': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_moveit_config
+[0.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_moveit_config)
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config' for CMake module files
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/cobot_description:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_moveit_config
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config' for CMake config files
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_moveit_config', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/lib/pkgconfig/custom_robot_moveit_config.pc'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/lib/python3.10/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.sh'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.bash'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.zsh'
+[0.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/colcon-core/packages/custom_robot_moveit_config)
+[0.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_moveit_config)
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config' for CMake module files
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config' for CMake config files
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_moveit_config', 'cmake_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/bin'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/lib/pkgconfig/custom_robot_moveit_config.pc'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/lib/python3.10/site-packages'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/bin'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/custom_robot_moveit_config/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/custom_robot_moveit_config/share/colcon-core/packages/custom_robot_moveit_config)
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/linkattacher_msgs -- -j16 -l16
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/linkattacher_msgs
+[2.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs' for CMake module files
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/linkattacher_msgs
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs' for CMake config files
+[2.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib'
+[2.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/bin'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[2.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[2.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs' for CMake module files
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs' for CMake config files
+[2.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib'
+[2.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/bin'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/linkattacher_msgs/bin'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[2.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[2.035s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/ros2_LinkAttacher' with build type 'ament_cmake'
+[2.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/IFRA_LinkAttacher/ros2_LinkAttacher'
+[2.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ros2_linkattacher -- -j16 -l16
+[11.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/ros2_master_ws/build/ros2_linkattacher -- -j16 -l16
+[11.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ros2_linkattacher
+[11.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[11.501s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher' for CMake module files
+[11.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/ros2_master_ws/build/ros2_linkattacher
+[11.501s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher' for CMake config files
+[11.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[11.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[11.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[11.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[11.503s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib'
+[11.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[11.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[11.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[11.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[11.503s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/bin'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib/python3.10/site-packages'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/bin'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[11.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[11.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[11.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[11.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[11.506s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher' for CMake module files
+[11.507s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher' for CMake config files
+[11.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[11.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[11.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[11.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[11.509s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib'
+[11.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[11.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[11.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[11.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[11.509s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/bin'
+[11.510s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[11.510s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/lib/python3.10/site-packages'
+[11.510s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/ros2_linkattacher/bin'
+[11.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[11.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[11.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[11.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/ros2_master_ws/src/custom_robot_ik' with build type 'ament_cmake'
+[11.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/ros2_master_ws/src/custom_robot_ik'
+[11.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j16 -l16
+[11.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j16 -l16
+[11.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik
+[11.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_ik)
+[11.895s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik' for CMake module files
+[11.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik
+[11.896s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik' for CMake config files
+[11.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_ik', 'cmake_prefix_path')
+[11.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.ps1'
+[11.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.dsv'
+[11.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.sh'
+[11.897s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib'
+[11.897s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/bin'
+[11.897s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib/pkgconfig/custom_robot_ik.pc'
+[11.898s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib/python3.10/site-packages'
+[11.898s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/bin'
+[11.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.ps1'
+[11.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.dsv'
+[11.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.sh'
+[11.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.bash'
+[11.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.zsh'
+[11.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/custom_robot_ik/share/colcon-core/packages/custom_robot_ik)
+[11.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_ik)
+[11.899s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik' for CMake module files
+[11.900s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik' for CMake config files
+[11.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_ik', 'cmake_prefix_path')
+[11.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.ps1'
+[11.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.dsv'
+[11.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/hook/cmake_prefix_path.sh'
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib'
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/bin'
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib/pkgconfig/custom_robot_ik.pc'
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/lib/python3.10/site-packages'
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/fra/ros2_master_ws/install/custom_robot_ik/bin'
+[11.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.ps1'
+[11.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.dsv'
+[11.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.sh'
+[11.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.bash'
+[11.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/ros2_master_ws/install/custom_robot_ik/share/custom_robot_ik/package.zsh'
+[11.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/ros2_master_ws/install/custom_robot_ik/share/colcon-core/packages/custom_robot_ik)
+[11.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.903s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.912s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.929s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/ros2_master_ws/install/local_setup.ps1'
+[11.931s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fra/ros2_master_ws/install/_local_setup_util_ps1.py'
+[11.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/ros2_master_ws/install/setup.ps1'
+[11.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/ros2_master_ws/install/local_setup.sh'
+[11.936s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fra/ros2_master_ws/install/_local_setup_util_sh.py'
+[11.937s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/ros2_master_ws/install/setup.sh'
+[11.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/ros2_master_ws/install/local_setup.bash'
+[11.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/ros2_master_ws/install/setup.bash'
+[11.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/ros2_master_ws/install/local_setup.zsh'
+[11.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/ros2_master_ws/install/setup.zsh'

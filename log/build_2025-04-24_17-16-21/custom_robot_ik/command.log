@@ -1,0 +1,4 @@
+Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j16 -l16
+Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/custom_robot_ik -- -j16 -l16
+Invoking command in '/home/fra/ros2_master_ws/build/custom_robot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik
+Invoked command in '/home/fra/ros2_master_ws/build/custom_robot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/custom_robot_ik

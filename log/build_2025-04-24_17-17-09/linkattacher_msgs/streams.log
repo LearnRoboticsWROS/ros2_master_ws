@@ -1,0 +1,251 @@
+[0.017s] Invoking command in '/home/fra/ros2_master_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/linkattacher_msgs -- -j16 -l16
+[0.045s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.191s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.741s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.763s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.763s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.763s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.780s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.782s] -- Added test 'lint_cmake' to check CMake code style
+[0.783s] -- Added test 'xmllint' to check XML markup files
+[0.787s] -- Configuring done
+[0.808s] -- Generating done
+[0.816s] -- Build files have been written to: /home/fra/ros2_master_ws/build/linkattacher_msgs
+[0.843s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_generator_c[0m
+[0.853s] [  2%] Built target linkattacher_msgs__cpp
+[0.853s] [  5%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/detach_link__functions.c.o[0m
+[0.854s] [  7%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/attach_link__functions.c.o[0m
+[0.862s] [  7%] Built target ament_cmake_python_copy_linkattacher_msgs
+[0.863s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_cpp[0m
+[0.863s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.863s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.877s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[0.877s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/attach_link__type_support.cpp.o[0m
+[0.877s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/detach_link__type_support.cpp.o[0m
+[0.877s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[0.877s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/attach_link__type_support.cpp.o[0m
+[0.878s] [ 23%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/detach_link__type_support.cpp.o[0m
+[0.931s] [ 25%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_generator_c.so[0m
+[0.977s] [ 28%] Built target linkattacher_msgs__rosidl_generator_c
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.991s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c[0m
+[0.991s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c[0m
+[1.004s] [ 30%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/attach_link__type_support_c.cpp.o[0m
+[1.004s] [ 38%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/detach_link__type_support_c.cpp.o[0m
+[1.004s] [ 38%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[1.004s] [ 38%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/attach_link__type_support.c.o[0m
+[1.004s] [ 41%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[1.004s] [ 43%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/detach_link__type_support.c.o[0m
+[1.044s] [ 46%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.044s] [ 48%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_c.so[0m
+[1.079s] running egg_info
+[1.080s] [ 51%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[1.080s] writing linkattacher_msgs.egg-info/PKG-INFO
+[1.080s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[1.080s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[1.083s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.083s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.100s] [ 53%] Built target linkattacher_msgs__rosidl_typesupport_c
+[1.118s] [ 53%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.167s] [ 56%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_cpp.so[0m
+[1.207s] [ 58%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[1.254s] [ 64%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.254s] [ 64%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.313s] [ 66%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[1.327s] [ 69%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[1.338s] [ 71%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.398s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[1.417s] [ 74%] Built target linkattacher_msgs
+[1.437s] [ 76%] Built target linkattacher_msgs__py
+[1.449s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_generator_py[0m
+[1.463s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_attach_link_s.c.o[0m
+[1.463s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_detach_link_s.c.o[0m
+[1.552s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so[0m
+[1.588s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[1.598s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.598s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.598s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c__pyext[0m
+[1.610s] [ 92%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.611s] [ 92%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.611s] [ 92%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.686s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.686s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.686s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.716s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[1.716s] [100%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.716s] [100%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[1.729s] Invoked command in '/home/fra/ros2_master_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/ros2_master_ws/build/linkattacher_msgs -- -j16 -l16
+[1.730s] Invoking command in '/home/fra/ros2_master_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/linkattacher_msgs
+[1.737s] -- Install configuration: ""
+[1.737s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv
+[1.738s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.738s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.738s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.738s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[1.739s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[1.739s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[1.739s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so" to ""
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.739s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[1.739s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.739s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.740s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[1.740s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.740s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[1.740s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so" to ""
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[1.740s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.741s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.741s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.741s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp
+[1.741s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.741s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[1.742s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.742s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[1.742s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so" to ""
+[1.742s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[1.742s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[1.742s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info
+[1.742s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.742s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.742s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[1.743s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[1.743s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.771s] Listing '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[1.771s] Compiling '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py'...
+[1.771s] Listing '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[1.771s] Compiling '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py'...
+[1.771s] Compiling '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py'...
+[1.771s] Compiling '/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py'...
+[1.774s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.775s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.775s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.776s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.776s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.776s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.776s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[1.776s] -- Set runtime path of "/home/fra/ros2_master_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so" to ""
+[1.776s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[1.776s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[1.776s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[1.777s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[1.777s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.778s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[1.779s] -- Up-to-date: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[1.779s] -- Installing: /home/fra/ros2_master_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[1.782s] Invoked command in '/home/fra/ros2_master_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/ros2_master_ws/build/linkattacher_msgs
